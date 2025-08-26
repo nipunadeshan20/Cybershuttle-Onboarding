@@ -1,0 +1,163 @@
+.onboarding-body {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.onboarding-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 28rem;
+}
+
+.onboarding-steps li {
+  background-color: #eeeeee;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  font-size: 0.87rem;
+  text-align: left;
+  width: 450px;
+  align-self: center;
+
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.onboarding-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 28rem;
+  width: 1000px;
+  margin-top: 2rem;
+  gap: 9rem;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+}
+
+
+.btn-outline {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  background-color: white;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  border-color: #a9a9a9;
+}
+
+.btn-skip {
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.btn-skip:hover {
+  text-decoration: underline;
+}
+
+.btn-next {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #21B1D4;
+  color: white;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-next:hover {
+  background: linear-gradient(135deg, #21B1D4, #33cbf1);
+}
+
+.onboarding-support {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 2rem;
+}
+
+.onboarding-support a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.ProgressBar{
+    width: 138px !important;
+    margin-top: 10px;
+}
+
+.onboarding-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+
+.onboarding-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+.HeadingGettingStarted{
+    font-size: 1.3rem;
+    font-weight: 480 !important;
+    color: #333;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.signin-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 30px !important;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.signin-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.signin-middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.NeedHelpOpt {
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
+
+.logo-img2{
+height: 30px !important;
+margin-bottom: 0px;
+}

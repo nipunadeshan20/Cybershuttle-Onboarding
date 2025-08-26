@@ -1,0 +1,234 @@
+.onboarding-body {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.onboarding-footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 28rem;
+  margin-top: 0rem !important;
+  gap: 9rem;
+  width: 1000px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+}
+
+
+.btn-outline {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  background-color: white;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  border-color: #a9a9a9;
+}
+
+.btn-skip {
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.btn-skip:hover {
+  text-decoration: underline;
+}
+
+.btn-next {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.5rem;
+  background-color: #21B1D4;
+  color: white;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-next:hover {
+  background: linear-gradient(135deg, #21B1D4, #33cbf1);
+}
+
+.onboarding-support {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 2rem;
+}
+
+.onboarding-support a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.ProgressBar{
+    width: 138px !important;
+    margin-top: 10px;
+}
+
+.onboarding-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+
+.onboarding-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.HeadingGettingStarted{
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #333;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.signin-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 50px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.signin-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.signin-middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.signin-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.NeedHelpOpt {
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
+
+.logo-img2{
+height: 30px !important;
+margin-bottom: 0px;
+}
+
+.onboarding2-wrapper {
+  max-width: 100%;
+  width: 100%;
+  max-width: 1000px;
+}
+
+
+
+.onboarding2-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.work-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.work-option {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 450px;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work-option:hover {
+  box-shadow: 0 0 0 2px #e0e0e0;
+}
+
+.work-option.selected {
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, #21B1D4, #464646) border-box;
+  border: 2px solid transparent;
+}
+
+
+.work-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.work-info h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.work-info p {
+  font-size: 12px;
+  margin: 0.1rem 0 0;
+  color: #555;
+  width: 300px;
+}
+
+.checkbox {
+  margin-left: auto;
+  font-size: 1.5rem;
+  color: #00bcd4;
+}
+
+.description-box {
+  width: 100%;
+  min-height: 80px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+  resize: vertical;
+}
+
+.MuiCheckbox-root {
+  margin-left: auto;
+}
